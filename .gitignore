@@ -1,3 +1,10 @@
+# Alista special ignore
+obj
+*/.DS_Store
+.DS_Store
+.vscode
+
+
 # Prerequisites
 *.d
 

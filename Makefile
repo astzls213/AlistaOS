@@ -53,6 +53,9 @@ qemu-nox:
 qemu-gdb:
 	@$(QEMU) -s -S -hda obj/boot/boot
 
+qemu-nox-gdb:
+	@$(QEMU) -s -S -nographic -hda obj/boot/boot
+
 # 清除目标文件
 clean:
 	@echo - rm obj

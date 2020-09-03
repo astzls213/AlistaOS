@@ -22,6 +22,6 @@ $(OBJDIR)/boot/boot: $(OBJDIR)/boot/boot.elf
 	@echo + elf2bin $@
 	@$(OBJDUMP) -S $< > $@.asm
 	@$(OBJCOPY) -S -O binary -j .text $< $@
-	@perl boot/sign.pl $(OBJDIR)/boot/boot
+	@python3 boot/boot_magic.py $@
 
 all: $(OBJDIR)/boot/boot

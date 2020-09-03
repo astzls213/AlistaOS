@@ -78,3 +78,21 @@ something_else_func()
 
 - Email: astzls213@163.com
 - Github: https://github.com/astzls213
+
+## End
+
+总的来说，从这个大项目我学到了很多东西，包括但不限于：
+
+1. 操作系统各种知识点（很多课本上学不到的）
+2. 硬件编程能力
+3. 网络编程能力
+4. C以及汇编代码能力
+5. 深刻计算机运作机理
+6. qemu/gdb/GNU toolchains的进阶使用
+7. 项目架构规划/组织能力
+8. 各种设计模式（分发器等等）
+9. 编译/链接的知识
+10. 熟悉Makfile语言
+11. 加强Git的使用能力
+12. README的编写
+13. 强化Linux各种命令的使用
